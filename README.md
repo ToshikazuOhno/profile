@@ -6,13 +6,18 @@
 
 ## プロフィール
 
-|key|value|
+|項目|内容|
 |---|---|
-|氏名|大野寿和|
+|氏名|大野寿和 Toshikazu Ohno|
 |所属|株式会社スワローインキュベート|
+|Facebook|https://www.facebook.com/toshikazu.ohno|
 |Twitter|@toshikazuohno11|
+|Wantedly|https://www.wantedly.com/users/1776944|
+|GitHub|https://github.com/ToshikazuOhno|
 |得意分野|特許からプログラムに落とす|
 |趣味|温泉旅行|
+|最近ハマってること|精度検証の自動化プログラム開発|
+<br>
 
 ## 専門スキル
 ### 業務内容
