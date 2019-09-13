@@ -2,7 +2,7 @@
 大野寿和の開発経歴書です。
 
 ## 最終更新日
-2019年03月07日
+2019年09月13日
 
 ## プロフィール
 
@@ -16,7 +16,7 @@
 |GitHub|https://github.com/ToshikazuOhno|
 |得意分野|特許からプログラムに落とす|
 |趣味|温泉旅行|
-|最近ハマってること|精度検証の自動化プログラム開発|
+|最近ハマってること|スマホアプリ開発|
 <br>
 
 ## 専門スキル
@@ -29,13 +29,13 @@
 ### 実用化実績
 - 虹彩認証技術 https://iris.pas-ta.io/
 - 音声による感情認識技術 https://feeling.pas-ta.io/
-- 瞳孔検出・虹彩検出技術
+- 瞳孔検出・虹彩検出技術 https://pupil.pas-ta.io/
 - 視線検知技術（現在進行中）
 ほか
 
 
 ### 読解特許
-2500件ぐらい
+3000件ぐらい
 - 画像処理系
 - 信号処理系
 <br><br>
@@ -51,9 +51,10 @@ JavaScript | Node.js | Express | Electron |<br>
 Python | Flask | Django |<br>
 Ruby | Ruby on Rails | Sinatra |<br>
 PHP | CakePHP | WordPress |
+Swift | Kotlin |
 
 ### ツール系
-Make | CMake | 
+Make | CMake | Gradle |
 GitHub | Docker | Vagrant + VirtualBox |
 
 
@@ -78,7 +79,10 @@ Cloud Watch | VPC | Route53 |
 - Raspberry Pi 2/3
 - Arduino Leonard/Uno
 - 簡易電子回路実装
-- ハードウェアプロトタイピング
+- ハードウェアプロトタイピング（タカチ電機工業が好き）
+- 赤外線カメラ
+- 光学系の簡単な設計
+- 赤外LED関連の知識
 
 
 ### 扱う数学
@@ -107,6 +111,7 @@ Cloud Watch | VPC | Route53 |
 #### スキル
 - 空間周波数フィルタ
 - エッジ検出（ハイパス/ラプラシアン/ガボール）
+- 輪郭検出
 - 大津の二値化
 - モルフォロジー演算
 - Haar状 Cascade分類器による物体検出
@@ -125,11 +130,12 @@ Cloud Watch | VPC | Route53 |
 - 簡単な音声認識（音韻分解）
 
 #### スキル
-- Armadillo(線形代数ライブラリ)
 - kissFFT（フーリエ変換ライブラリ）
 - フーリエ変換 / 逆フーリエ変換
-- ピーク周波数解析
-- 周波数フィルタリング
+- フォルマント解析
+- ケプストラム解析
+- 振幅増幅 / 正規化
+- 周波数フィルタリング（各種）
 - バイトオーダー/エンディアン別処理
 - サンプリング周波数/量子化ビット別処理
-- リニアPCM / G.711 μ-law
+- コーデック別wavヘッダー処理（リニアPCM / G.711 μ-lawなど）
