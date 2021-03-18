@@ -2,7 +2,7 @@
 大野寿和の開発経歴書です。
 
 ## 最終更新日
-2019年09月13日
+2021年03月18日
 
 ## プロフィール
 
@@ -14,61 +14,66 @@
 |Twitter|@toshikazuohno11|
 |Wantedly|https://www.wantedly.com/users/1776944|
 |GitHub|https://github.com/ToshikazuOhno|
-|得意分野|特許からプログラムに落とす|
+|得意分野|画像処理プログラムの設計・開発|
 |趣味|温泉旅行|
-|最近ハマってること|スマホアプリ開発|
+|最近ハマってること|GANによる画像データ生成|
 <br>
 
 ## 専門スキル
 ### 業務内容
-純粋な文献から、膨らませてプログラムに落とすことを行なっています。
-- 特許のビジネス的読解
+ヒューマンセンシング技術の社会実装を行っています。
+- 画像処理の判定・物体検出のAI開発
+- GANを用いたデータ生成AIの研究開発
 - 特許・研究成果　→　プログラム化
-- 新規発明考案・特許出願
+- ヒューマンセンシング関連の特許出願
 
-### 実用化実績
+### 開発実績
+- なりすまし判定技術 https://bio-check.pas-ta.io/
+- 視線検知技術 https://eyetrack.pas-ta.io/
 - 虹彩認証技術 https://iris.pas-ta.io/
-- 音声による感情認識技術 https://feeling.pas-ta.io/
 - 瞳孔検出・虹彩検出技術 https://pupil.pas-ta.io/
-- 視線検知技術（現在進行中）
 ほか
 
 
-### 読解特許
-3000件ぐらい
-- 画像処理系
-- 信号処理系
+### 保有特許
+- 特許第6717477号
+- 特許第6721169号
+- 特許第6725121号
+- 特許第6745518号
+- 特許第6755529号
+- 特許第6757949号
+- 特許第6802549号
 <br><br>
 
 ## 開発スキルマップ
-わたしはガチエンジニアではなく、研究内容をプロトタイピングする人間なので<br>
-がっつり書けるわけではないですが、以下はプロトタイプとして形にできるスキルがあるものです。
-
+- GAN 画像データ生成モデル開発
+- 画像処理アルゴリズム開発
+- 画像処理深層学習モデル開発
+- 画像処理カスケード分類器開発
+- 音声信号処理アルゴリズム開発
+- 音声信号処理ア深層学習モデル開発
+- 自前ソースコードのクロスコンパイル（windowsOS/macOS/LinuxOS/AndroidOS/iOS）
 
 ### 言語 / フレームワーク / ライブラリ 
 C | C++ | OpenCV/C++ | OpenCV/Python |<br>
+TensorFlow | Keras | CNN系 | GAN | <br>
 JavaScript | Node.js | Express | Electron |<br>
 Python | Flask | Django |<br>
-Ruby | Ruby on Rails | Sinatra |<br>
-PHP | CakePHP | WordPress |
-Swift | Kotlin |
-
-### ツール系
-Make | CMake | Gradle |
-GitHub | Docker | Vagrant + VirtualBox |
-
+PHP | WordPress |
+Swift | Kotlin | Android for Java |
+Visual C++ | .NETアプリケーション開発 |
 
 ### OS
 - macOS
 - Windows OS
 - LinuxOS（CentOS / UbuntuOS / RaspbianOS）
-
+- iOS
+- Android OS
 
 ### データベース
 - SQLite3
 - MySQL
 - PostgreSQL
-
 
 ### AWS
 EC2 | S3 | RDS | DynamoDB |<br>
@@ -76,7 +81,7 @@ Cloud Watch | VPC | Route53 |
 
 
 ### ハードウェア
-- Raspberry Pi 2/3
+- Raspberry Pi 3/4
 - Arduino Leonard/Uno
 - 簡易電子回路実装
 - ハードウェアプロトタイピング（タカチ電機工業が好き）
@@ -94,7 +99,6 @@ Cloud Watch | VPC | Route53 |
 窓フーリエ変換 | 高速フーリエ変換 |<br>
 ラプラス変換 | Z変換 |<br>
 ウェーブレット変換 |<br>
-最小二乗法 | 
 
 ## 研究実用化分野
 
@@ -102,23 +106,24 @@ Cloud Watch | VPC | Route53 |
 主に生体画像を扱った画像処理を行なっています。
 
 #### 処理内容
-- 虹彩認証
+- 顔検出
+- 目位置検出
 - 瞳孔検出・虹彩検出
-- 視線方向検出
-- 顔検出・目検出
-- Caffeモデルによる顔特徴量抽出
+- まぶた検出・目尻目頭検出
+- 虹彩認証
+- 視線方向推定
+- 視線先推定
+- 目の開閉判定
+- なりすまし判定
+- メガネ装着判定
+- マスク判定
 
 #### スキル
-- 空間周波数フィルタ
-- エッジ検出（ハイパス/ラプラシアン/ガボール）
-- 輪郭検出
-- 大津の二値化
-- モルフォロジー演算
-- Haar状 Cascade分類器による物体検出
-- 独自アルゴリズムの物体検出
-- 平均輝度値 / 標準偏差値を用いた処理
-- オプティカルフロー（ちょっと）
-
+- 深層学習二値分類タスク・多クラス分類タスク
+- TensorFlow x Keras => ONNX化
+- Cascade分類器生成・物体検出
+- 各種画像処理アルゴリズム（空間周波数フィルタ・エッジ検出・モルフォロジー演算）
+- OpenCV + OpenCV Contrib
 
 ### 音声信号処理分野
 音声から感情状態やノイズなどを検出、認識する技術の研究と実用化を行なっています。
